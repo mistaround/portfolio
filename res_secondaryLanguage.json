@@ -1,0 +1,239 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 我是孙硕，本科就读于上海科技大学计算机科学专业，现在就读于宾夕法尼亚大学的EE硕士项目。我将会申请宾大的CIS双学位硕士项目，如果一切顺利，我会在2024年春季毕业。我是一个程序员的同时也是一个摄影爱好者，欢迎到访我的个人主页！",
+      "section_name": {
+        "about": "关于我",
+        "projects": "个人项目",
+        "skills": "职业技能",
+        "experience": "相关经历"
+      }
+    },
+    "projects": [
+      {
+        "title": "Visalary.io 信息网站",
+        "startDate": "2022/10",
+        "description": "该项目分为两部分：网站和Jupyter Notebook。该网站是我的个人项目，旨在为像我这样的国际学生提供清晰易读的 H1-B 信息。该Jupyter Notebook是 3 人的团队项目，专注于数据分析和机器学习以进行薪资预测。",
+        "images": [
+          "images/portfolio/visalary/p1.jpg",
+          "images/portfolio/visalary/p2.jpg"
+        ],
+        "url": "https://colab.research.google.com/drive/1SI8W80CNLr5Z6XCnpt0By7zbYz1c-QRE",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-jupyter-plain",
+            "name": "Jupyter"
+          },
+          {
+            "class": "devicon-pytorch-plain",
+            "name": "PyTorch"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-flask-plain",
+            "name": "Flask"
+          }
+        ]
+      },
+      {
+        "title": "搜索引擎",
+        "startDate": "2022/03",
+        "description": "从零开始在AWS上构建搜索引擎架构，包括爬虫，正反向索引，页排名和服务器。我们构建了一个高性能的分布式爬虫程序，可以在8小时内爬取百万级别数量的网页。",
+        "images": [
+          "images/portfolio/searchengine/p1.jpg"
+        ],
+        "url": "https://github.com/mistaround/search_engine_from_scratch",
+        "technologies": [
+          {
+            "class": "devicon-amazonwebservices-original",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-apache-plain",
+            "name": "Hadoop"
+          },
+          {
+            "class": "devicon-apache-plain",
+            "name": "Storm"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Shareyou 社交软件",
+        "startDate": "2021/11",
+        "description": "我制作的第一个 Web 应用程序。这是一个社交媒体应用程序，专注于在群组中分享照片和视频。具有账号授权、群组管理、多媒体评论发帖、实时聊天、实时通知等功能。它仍在部署，但我不再为 AWS S3 付费，因此某些功能可能无法使用。",
+        "images": [
+          "images/portfolio/shareyou/p1.jpg",
+          "images/portfolio/shareyou/p2.jpg"
+        ],
+        "url": "http://54.242.88.225/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          }
+        ]
+      },
+      {
+        "title": "视频验证",
+        "startDate": "2021/03",
+        "description": "这是一个我作为研究助理和一位学长一起工作的项目。他提出了一项名为 Action Verification（视频验证） 的新任务。我们为它拍摄了一个数据集，并编写了代码来运行一些baseline。毕业后论文被CVPR2022录用。恭喜！",
+        "images": [
+          "images/portfolio/videoverification/p1.jpg",
+          "images/portfolio/videoverification/v1.mp4"
+        ],
+        "url": "https://arxiv.org/abs/2112.06447",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-pytorch-plain",
+            "name": "PyTorch"
+          },
+          {
+            "class": "devicon-ubuntu-plain",
+            "name": "Ubuntu"
+          }
+        ]
+      },
+      {
+        "title": "标注工具",
+        "startDate": "2020/06",
+        "description": "图片标注工具是我第一次实习时的个人项目，所以没有代码。我花了大部分时间调整基于OpenCV实现的图割算法，用来对标注好的的图像自动优化。",
+        "images": [
+          "images/portfolio/annotation/p1.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-opencv-plain",
+            "name": "OpenCV"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          }
+        ]
+      },
+      {
+        "title": "摄影作品",
+        "startDate": "2021-2022",
+        "description": "由Fujifilm XT-3拍摄",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg",
+          "images/portfolio/photography/p3.jpg",
+          "images/portfolio/photography/p4.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "宾夕法尼亚大学",
+        "title": "教学助理",
+        "years": "08.2022 - 12.2022",
+        "mainTech": [
+          "React"
+        ],
+        "technologies": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node.js",
+          "Redux",
+          "REST API",
+          "JavaScript",
+          "SignalR",
+          "Jest",
+          "Cypress"
+        ]
+      },
+      {
+        "company": "上海科技大学SVIP实验室",
+        "title": "研究助理",
+        "years": "12.2019 - 05.2021",
+        "mainTech": [
+          "PyTorch"
+        ],
+        "technologies": [
+          "Computer Vision",
+          "Deep Learning",
+          "Python",
+          "Linux",
+          "Docker"
+        ]
+      },
+      {
+        "company": "叠境数字科技",
+        "title": "软件开发实习生",
+        "years": "06.2020 - 09.2020",
+        "mainTech": [
+          "OpenCV"
+        ],
+        "technologies": [
+          "Python",
+          "HTML",
+          "CSS",
+          "JQuery",
+          "Sklearn",
+          "PyTorch"
+        ]
+      }
+    ]
+  }

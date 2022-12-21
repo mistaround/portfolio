@@ -1,0 +1,239 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Shuo Sun, Master's student at University of Pennsylvania. I'm currently pursuing my degree in Electrical Engineering, and will apply a dual degree in Computer and Information Science. So if everything goes well, I will be graduating May 2024. I am a programmer and a photographer. This is a portfolio website showing my previous works. Thank you for visiting!",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Visalary.io",
+        "startDate": "2022/10",
+        "description": "The project is divided into two parts: the website and the notebook. The website is my personal project aiming to provide clean and readable H1-B information for international students like me. The notebook was a team project of 3 people focusing on data anlysis and machine learning to make salary prediction.",
+        "images": [
+          "images/portfolio/visalary/p1.jpg",
+          "images/portfolio/visalary/p2.jpg"
+        ],
+        "url": "https://colab.research.google.com/drive/1SI8W80CNLr5Z6XCnpt0By7zbYz1c-QRE",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-jupyter-plain",
+            "name": "Jupyter"
+          },
+          {
+            "class": "devicon-pytorch-plain",
+            "name": "PyTorch"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-flask-plain",
+            "name": "Flask"
+          }
+        ]
+      },
+      {
+        "title": "Search Engine",
+        "startDate": "2022/03",
+        "description": "Build the architechture of a search engine from scratch, including Crawler, Indexer, Pagerank, and Server on AWS. We built a high-performance distributed crawler that crawled 100K+ pages in 8 hours.",
+        "images": [
+          "images/portfolio/searchengine/p1.jpg"
+        ],
+        "url": "https://github.com/mistaround/search_engine_from_scratch",
+        "technologies": [
+          {
+            "class": "devicon-amazonwebservices-original",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-apache-plain",
+            "name": "Hadoop"
+          },
+          {
+            "class": "devicon-apache-plain",
+            "name": "Storm"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Shareyou Social App",
+        "startDate": "2021/11",
+        "description": "The first web application I made. It is a social media app focusing on photo and video sharing in a group. It has functions like account authorization, group management, multi-media comment & post, live chat, and real-time notification. It is still deployed but I did not pay for AWS S3 anymore so some functions may not work.",
+        "images": [
+          "images/portfolio/shareyou/p1.jpg",
+          "images/portfolio/shareyou/p2.jpg"
+        ],
+        "url": "http://54.242.88.225/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          }
+        ]
+      },
+      {
+        "title": "Video Verification",
+        "startDate": "2021/03",
+        "description": "It's a project where I worked as a research assistant with a senior. He proposed a new task called Action Verification. We filmed a dataset for it and wrote codes to run some baselines. The paper was accepted by CVPR2022 after my graduation. Congrats!",
+        "images": [
+          "images/portfolio/videoverification/p1.jpg",
+          "images/portfolio/videoverification/v1.mp4"
+        ],
+        "url": "https://arxiv.org/abs/2112.06447",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-pytorch-plain",
+            "name": "PyTorch"
+          },
+          {
+            "class": "devicon-ubuntu-plain",
+            "name": "Ubuntu"
+          }
+        ]
+      },
+      {
+        "title": "Annotation Tool",
+        "startDate": "2020/06",
+        "description": "The image annotation tool was an individual project during my first internship, so the code is unavailable. For most of the time, I was focusing on tuning a graphcut model built in OpenCV which aimed to do auto-refinement on anotated images.",
+        "images": [
+          "images/portfolio/annotation/p1.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-opencv-plain",
+            "name": "OpenCV"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          }
+        ]
+      },
+      {
+        "title": "Photography",
+        "startDate": "2021-2022",
+        "description": "Photos shot by Fujifilm XT-3",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg",
+          "images/portfolio/photography/p3.jpg",
+          "images/portfolio/photography/p4.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "University of Pennsylvania",
+        "title": "Teaching Assistant",
+        "years": "08.2022 - 12.2022",
+        "mainTech": [
+          "React"
+        ],
+        "technologies": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node.js",
+          "Redux",
+          "REST API",
+          "JavaScript",
+          "SignalR",
+          "Jest",
+          "Cypress"
+        ]
+      },
+      {
+        "company": "SVIP Lab",
+        "title": "Research Assistant",
+        "years": "12.2019 - 05.2021",
+        "mainTech": [
+          "PyTorch"
+        ],
+        "technologies": [
+          "Computer Vision",
+          "Deep Learning",
+          "Python",
+          "Linux",
+          "Docker"
+        ]
+      },
+      {
+        "company": "DGene Digital Technology",
+        "title": "Software Engineering Intern",
+        "years": "06.2020 - 09.2020",
+        "mainTech": [
+          "OpenCV"
+        ],
+        "technologies": [
+          "Python",
+          "HTML",
+          "CSS",
+          "JQuery",
+          "Sklearn",
+          "PyTorch"
+        ]
+      }
+    ]
+  }
